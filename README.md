@@ -2,6 +2,8 @@
 
 package Collectionn;
 
+package Collectionn;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -21,17 +23,16 @@ public class Arraylistt {
 		
 		System.out.println(al);
 //		iterator use to print element one by one
-//		Iterator itr = al.iterator();
-//		while(itr.hasNext())
-//		{
-//			System.out.println(itr.next());
-//		}
+		Iterator itr = al.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
 //		use to clear everything
-//		al.clear();
-//		System.out.println(al);
+		al.clear();
+		System.out.println(al);
 //		it is use to make a copy .
-//		System.out.println(al.clone());
-		
+				
 		System.out.println(al);
 //		it will tell the last index of that object if it not present then output will be negative
 		System.out.println(al.lastIndexOf("PQR")); //last position
@@ -45,7 +46,7 @@ public class Arraylistt {
 		al.remove("PQR");
 		System.out.println(al);
 //		al.removeRange(0,3);
-//		it will pirnyt the sublist
+//		it will pirnt the sublist
 		System.out.println(al.subList(1, 3));
 //		 	 it will tell the size of arraylist
 		System.out.println(al.size());
