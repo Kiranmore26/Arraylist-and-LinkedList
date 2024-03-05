@@ -1,7 +1,3 @@
-# Arraylist-and-LinkedList
-
-package Collectionn;
-
 package Collectionn;
 
 import java.util.ArrayList;
@@ -22,41 +18,42 @@ public class Arraylistt {
 		al.add("Xyz");
 		
 		System.out.println(al);
-//		iterator use to print element one by one
+		 //iterator use to print element one by one
 		Iterator itr = al.iterator();
 		while(itr.hasNext())
 		{
 			System.out.println(itr.next());
 		}
-//		use to clear everything
+		//use to clear everything
 		al.clear();
 		System.out.println(al);
-//		it is use to make a copy .
+		//it is use to make a copy .
 				
 		System.out.println(al);
-//		it will tell the last index of that object if it not present then output will be negative
+		 // it will tell the last index of that object if it not present then output will be negative
 		System.out.println(al.lastIndexOf("PQR")); //last position
 		System.out.println(al.lastIndexOf("PQr")); //-1
-//		it check wether it is empty or not
+		//it check wether it is empty or not
 		System.out.println(al.isEmpty());
 		
 		System.out.println(al.contains("Pqr"));
-//		it will tell the first index value of that of value
+		//it will tell the first index value of that of value
 		System.out.println(al.indexOf("PQR"));
 		al.remove("PQR");
 		System.out.println(al);
-//		al.removeRange(0,3);
-//		it will pirnt the sublist
+
+		//it will pirnt the sublist
 		System.out.println(al.subList(1, 3));
-//		 	 it will tell the size of arraylist
+	 	// it will tell the size of arraylist
 		System.out.println(al.size());
-//		it will reset new value at given index
+		//it will reset new value at given index
 		al.set(0, "KKKKK");
 		System.out.println(al);
 	}
 	
 
 }
+
 
 
 
